@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto etiquetas semánticas">
+    <meta name="author" content="Gabriel">
+    <title>Document</title>
+    <!-- Acá se puede estilizar la página  -->
+    <style>
+        table{
+            width: 30%;
+            margin: 30px 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table th{
+            background-color: rgb(248, 84, 210);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hola cabros</h1>
+        <nav>
+            <ul>
+               <li><a href="#inicio">Inicio</a></li>
+               <li><a href="#lista">Lista de estudiantes</a></li>
+               <li><a href="contacto">Formulario de contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- sección principal -->
+    <main>
+        <section id="inicio">
+            <!-- las secciones las separamos por etiqueta section  -->
+             <h2>Bienvenido a mi página</h2>
+             <p>Esta es la sección de inicio</p>
+        </section>
+        <section id="lista">
+            <h2>Lista de Estudiantes</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Dato Curioso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th>Juan</th>
+                    <th>36</th>
+                    <th>Le dicen el arbol de navidad porque las bolas las tiene de adorno</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Pedro</th>
+                        <th>22</th>
+                        <th>Le dicen el abejorro porque muere con el primer pique</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Fernando</th>
+                        <th>29</th>
+                        <th>Le dicen el cajero porque siempre está en el banco</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Pupi</th>
+                        <th>34</th>
+                        <th>Le dicen el Pendrive Chino porque te caga el equipo</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Axel</th>
+                        <th>??</th>
+                        <th>Le dicen el frazada de huaipe porque no tapa nada</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Coco</th>
+                        <th>19</th>
+                        <th>Le dicen remix porque es tartamudo</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Jordan</th>
+                        <th>31</th>
+                        <th>Le dicen el pollo congelado porque siempre pasa duro y pegado a la bolsa</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+
+        </section id="contacto">
+        <h2>Formulario de contacto</h2>
+        <actioni="http://127.0.0.1:5500/api/estudiantes/nuevo" method="post">
+            <label for="nombre">Indica tu nombre</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="edad">Indica tu edad</label>
+            <br>
+            <input type="number" id=""></input>
+            <br>
+            <label for="dato curioso">Dato curioso</label>
+            <br>
+            <input type="text" name="" id="">
+            <br>
+            <input type="button" value="Enviar">
+
+        </form>
+    </main>
+
+    <footer>
+        <!-- Pie de página -->
+         <p style="color: pink; background-color:blueviolet">Burunyaaan~~</p>
+    </footer>
+
+</body>
+</html>
