@@ -1,0 +1,88 @@
+
+/* Selector de etiqueta universal, score de 0 */
+* {
+    color: slateblue;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+/*Esto es una etiqueta selector*/
+
+/* Selectores de etiqueta tienen una especificidad de 1% */
+
+
+h1 {
+    color: deeppink(16, 228, 105);
+}
+
+/* podemos seleccionar hijos de un elemento padre, indicando el
+nombre de la etiqueta padre y etiqueta hija  */
+
+div .elemento-hijo {
+    font-weight: bold;
+    color: cadetblue;
+    background-color: chocolate;
+}
+
+/* selector de clase, se usa para todos los elementos que compartan la clase.
+se utiliza a traves de un ".", especificidad de 10% */
+
+.subtitulo{
+    color: springgreen;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ID: Selector que usa a los elementos con un id en especificon, especificidad del
+100% */
+
+#parrafo-principal {
+    color: salmon;
+    background-color: darkgoldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#parrafo-secundario {
+    color: blueviolet;
+    background-color: navajowhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#la-matris {
+    color: greenyellow;
+    background-color: black;
+    font-family: fantasy;
+}
+/*
+Propiedades del modelo de caja */
+
+.caja{
+    width: 600px; /*ancho del elemento*/
+    height: 400px;
+    background-color: #000000; /*color de fondo*/
+    color: #ffffff; /*color de letra*/
+    text-align: center;
+    /* border-style: solid;
+    border-width: 5px; */
+    border: solid 5px crimson;
+    /* padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; */
+    padding: 50px 50px 50px 50px;
+    /* margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px; */
+    margin: 75px 75px;
+}
+
+.caja-imagen{
+    width: 100%;
+    height: 100%;
+    margin: 7.5px auto;
+
+}
+
