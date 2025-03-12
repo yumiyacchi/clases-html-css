@@ -59,8 +59,9 @@ se utiliza a traves de un ".", especificidad de 10% */
 Propiedades del modelo de caja */
 
 .caja{
-    width: 600px; /*ancho del elemento*/
-    height: 400px;
+    /* width: 600px; */
+    width: 70vh; /*ancho del elemento*/
+    height: 50vh;
     background-color: #000000; /*color de fondo*/
     color: #ffffff; /*color de letra*/
     text-align: center;
@@ -85,4 +86,26 @@ Propiedades del modelo de caja */
     margin: 7.5px auto;
 
 }
+#ta-bien{
+    font-size: 2em; /*1ren = 16px*/
+    color: blanchedalmond;
+}
 
+.boton{
+    /* position: static; valor */
+    position: relative;
+    top: 5%;
+    z-index: 20px;
+    background-color: chartreuse;
+    color: blueviolet;
+}
+.boton-2{
+    position: relative; /*esta propiedad permite fijar un elemento en la posición
+    que se indique*/
+    /* position: sticky; combina el posicionamiento relativo y el fixed */
+    top: 50px;
+    left: 50px;
+    bottom: 50px;
+    right: 50px;
+    z-index: 15px;
+}
