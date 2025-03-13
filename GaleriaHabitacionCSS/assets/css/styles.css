@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-evenly;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-links > li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.contendedor-grid{
+    height: 1500px ;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-auto-rows: 400px;
+    gap: 10px;
+
+}
+
+.imagen{
+    height: 100;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px, 8px #000;
+}
+
+.imagen1{
+    background-image: url("../img/hotel_front.jpg");
+    background-size: cover;
+}
+
+.imagen2{
+    background-image: url("../img/hotel_poolside.jpg");
+    background-size: auto;
+}
+
+.imagen3{
+    background-image: url("../img/hotel_lounge.jpg");
+    background-size: auto;
+}
+.imagen4{
+    background-image: url("../img/hotel_fbeds.jpg");
+    background-size: auto;
+}
